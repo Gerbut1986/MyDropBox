@@ -47,7 +47,6 @@
     public class CloudService : ICloud, IAccount, IConnection
     {
         //public List<string> currentUsersLogins = new List<string>();
-
         public string Auth(string login, string password)
         {
             using (DropBoxCloudEntities db = new DropBoxCloudEntities())
@@ -60,13 +59,15 @@
                         {
                             //currentUsersLogins.Add(login);
                             db.SaveChanges();
-                            return db.Users.Where(t=>t.Login.Equals(login)).FirstOrDefault().Name;
+                            return db.Users.Where(t => t.Login.Equals(login)).FirstOrDefault().Name;
                         }
                     }
                 }
             }
+
             return string.Empty;
         }
+
         public bool Register(User user)
         {
             using (DropBoxCloudEntities db = new DropBoxCloudEntities())
@@ -75,15 +76,22 @@
                 {
                     db.Users.Add(new Users { Name = user.Name, Login = user.Login, Password = user.Password, Email = user.Email }); // adding user
                     db.SaveChanges();
+                    int owner = db.Users.Where(t => t.Login.Equals(user.Login)).FirstOrDefault().Id;
                     db.FileSystemElements.Add(new FileSystemElements
-                    { Id_Owner = db.Users.Where(t=>t.Login.Equals(user.Login)).FirstOrDefault().Id, Hash = "root", Name = "root", Parent = "null", ElementType = 0 }); // creating root folder
+                    {
+                        Id_Owner = owner,
+                        Hash = "root", Name = "root", Parent = "null", ElementType = 0
+                    }); // creating root folder
+
                     db.SaveChanges();
                 }
                 else
                     return false;
             }
+
             return true;
         }
+
         public void CreateFolder(string name, string parentFolderHash, string userLogin)
         {
             try
@@ -114,6 +122,7 @@
                 Console.WriteLine(ex.Message);
             }
         }
+
         public void DeleteElement(string hash)
         {
             try
@@ -126,6 +135,7 @@
             }
             catch { }
         }
+
         public File GetFile(string fileHash)
         {
             File returnedFile = new File();
@@ -139,6 +149,7 @@
 
             return returnedFile;
         }
+
         public Folder GetFolder(string folderHash,string userLogin)
         {
             dynamic folder = null;
@@ -148,13 +159,17 @@
 
             using (DropBoxCloudEntities db = new DropBoxCloudEntities())
             {
-                folder        = db.FileSystemElements.Where(t => t.Hash.Equals(folderHash)).Where(t=>t.Id_Owner.Equals( db.Users.Where(p=>p.Login.Equals(userLogin) ).FirstOrDefault().Id)).FirstOrDefault();
+                folder = db.FileSystemElements.Where(t => t.Hash.Equals(folderHash))
+                                 .Where(t => t.Id_Owner.Equals(db.Users.Where(p => p.Login.Equals(userLogin))
+                                 .FirstOrDefault().Id))
+                                 .FirstOrDefault(); 
 
                 var collection = db.FileSystemElements.Where(t => t.Parent.Equals(folderHash)).ToList();
                 foreach(var el in collection)
                 {
                     if (el.Content != null)
-                        folderContentFiles.Add(new File { Name = el.Name, Hash = el.Hash, ElementType = 1, ParentHash = el.Parent });
+                        folderContentFiles.Add(new File
+                        { Name = el.Name, Hash = el.Hash, ElementType = 1, ParentHash = el.Parent });
                     else
                         folderContentFolders.Add(new Folder { Name= el.Name, Hash = el.Hash,
                             ElementType = 1, ParentHash = el.Parent });
@@ -224,7 +239,7 @@
         static void Main(string[] args)
         {
             using (ServiceHost host = new ServiceHost(typeof(CloudService),
-         new Uri("net.tcp://localhost/DropBox")/* базовый адрес */))
+                                       new Uri("net.tcp://localhost/DropBox")/* базовый адрес */))
             {
                 // добавление оконечной точки для общения с клиентом (авторизация)
                 host.AddServiceEndpoint(

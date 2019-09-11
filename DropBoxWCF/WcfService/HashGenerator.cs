@@ -23,23 +23,27 @@
                     Thread.Sleep(1);
                     hash += new Random().Next(0, 9).ToString();
                 }
+
                 Thread.Sleep(1);
             }
+
             return hash.Shuffle();
         }
+
         private static string Shuffle(this string str)
         {
             char[] array = str.ToCharArray();
-            Random rng = new Random();
+            Random rang = new Random();
             int n = array.Length;
             while (n > 1)
             {
                 n--;
-                int k = rng.Next(n + 1);
+                int k = rang.Next(n + 1);
                 var value = array[k];
                 array[k] = array[n];
                 array[n] = value;
             }
+
             return new string(array);
         }
     }

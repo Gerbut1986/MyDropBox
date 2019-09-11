@@ -66,3 +66,41 @@ C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.Pro
 C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csproj.GenerateResource.Cache
 C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.exe
 C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.exe.config
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.exe
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignColors.dll
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\WcfClassesLib.dll
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.exe
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\EntityFramework.dll
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.exe.config
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\WcfClassesLib.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\EntityFramework.xml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csprojAssemblyReference.cache
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateAccount.g.cs
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateFolder.g.cs
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\ElementMove.g.cs
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\Lobby.g.cs
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\MainWindow.g.cs
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\App.g.cs
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF_MarkupCompile.cache
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF_MarkupCompile.lref
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\App.baml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateAccount.baml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateFolder.baml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\ElementMove.baml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\Lobby.baml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\MainWindow.baml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.g.resources
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.Properties.Resources.resources
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csproj.GenerateResource.cache
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csproj.CoreCompileInputs.cache
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csproj.CopyComplete
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.exe
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\DATA\DropBox.mdf
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\bin\Debug\DATA\DropBox_log.ldf

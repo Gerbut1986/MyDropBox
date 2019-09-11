@@ -3,3 +3,9 @@ C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClas
 C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\bin\Debug\WcfClassesLib.pdb
 C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.dll
 C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\WcfClassesLib\bin\Debug\WcfClassesLib.dll
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\WcfClassesLib\bin\Debug\WcfClassesLib.pdb
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.csprojAssemblyReference.cache
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.csproj.CoreCompileInputs.cache
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.dll
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.pdb
