@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CloudService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_IAccount_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="NetTcpBinding_ICloud_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfClassesLib" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/System" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IAccount_Auth_InputMessage">
+    <wsdl:part name="parameters" element="tns:Auth" />
+  </wsdl:message>
+  <wsdl:message name="IAccount_Auth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IAccount_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="IAccount_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_GetFolder_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFolder" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_GetFolder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_GetFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFile" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_GetFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_GetFolderHashesByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFolderHashesByName" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_GetFolderHashesByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFolderHashesByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_UploadFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:UploadFile" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_UploadFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UploadFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_CreateFolder_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateFolder" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_CreateFolder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_DeleteElement_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteElement" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_DeleteElement_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteElementResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_MoveElement_InputMessage">
+    <wsdl:part name="parameters" element="tns:MoveElement" />
+  </wsdl:message>
+  <wsdl:message name="ICloud_MoveElement_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MoveElementResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IAccount">
+    <wsdl:operation name="Auth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccount/Auth" message="tns:IAccount_Auth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccount/AuthResponse" message="tns:IAccount_Auth_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IAccount/Register" message="tns:IAccount_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IAccount/RegisterResponse" message="tns:IAccount_Register_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICloud">
+    <wsdl:operation name="GetFolder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/GetFolder" message="tns:ICloud_GetFolder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/GetFolderResponse" message="tns:ICloud_GetFolder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/GetFile" message="tns:ICloud_GetFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/GetFileResponse" message="tns:ICloud_GetFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderHashesByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/GetFolderHashesByName" message="tns:ICloud_GetFolderHashesByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/GetFolderHashesByNameResponse" message="tns:ICloud_GetFolderHashesByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/UploadFile" message="tns:ICloud_UploadFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/UploadFileResponse" message="tns:ICloud_UploadFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateFolder">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/CreateFolder" message="tns:ICloud_CreateFolder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/CreateFolderResponse" message="tns:ICloud_CreateFolder_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteElement">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/DeleteElement" message="tns:ICloud_DeleteElement_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/DeleteElementResponse" message="tns:ICloud_DeleteElement_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MoveElement">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICloud/MoveElement" message="tns:ICloud_MoveElement_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICloud/MoveElementResponse" message="tns:ICloud_MoveElement_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_IAccount" type="tns:IAccount">
+    <wsp:PolicyReference URI="#NetTcpBinding_IAccount_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="Auth">
+      <soap12:operation soapAction="http://tempuri.org/IAccount/Auth" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap12:operation soapAction="http://tempuri.org/IAccount/Register" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_ICloud" type="tns:ICloud">
+    <wsp:PolicyReference URI="#NetTcpBinding_ICloud_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetFolder">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/GetFolder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFile">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/GetFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderHashesByName">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/GetFolderHashesByName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UploadFile">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/UploadFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateFolder">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/CreateFolder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteElement">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/DeleteElement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MoveElement">
+      <soap12:operation soapAction="http://tempuri.org/ICloud/MoveElement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CloudService">
+    <wsdl:port name="NetTcpBinding_IAccount" binding="tns:NetTcpBinding_IAccount">
+      <soap12:address location="net.tcp://localhost/DropBox/Account" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost/DropBox/Account</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>ALEX-PC\Алексей</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_ICloud" binding="tns:NetTcpBinding_ICloud">
+      <soap12:address location="net.tcp://localhost/DropBox/Cloud" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost/DropBox/Cloud</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>ALEX-PC\Алексей</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

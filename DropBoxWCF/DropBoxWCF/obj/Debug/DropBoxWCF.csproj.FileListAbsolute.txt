@@ -1,0 +1,68 @@
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.exe.config
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.exe
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.pdb
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignColors.dll
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.dll
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.xml
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csprojResolveAssemblyReference.cache
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF_MarkupCompile.cache
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF_MarkupCompile.lref
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.g.resources
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.Properties.Resources.resources
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csproj.GenerateResource.Cache
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.exe
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.pdb
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\MainWindow.g.cs
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\App.g.cs
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\App.baml
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\MainWindow.baml
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateAccount.g.cs
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\Lobby.g.cs
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateAccount.baml
+c:\users\алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\Lobby.baml
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\ElementMove.g.cs
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\ElementMove.baml
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateFolder.g.cs
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateFolder.baml
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\WcfClassesLib.dll
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\WcfClassesLib.pdb
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.exe
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\EntityFramework.dll
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.pdb
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.exe.config
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\DropBoxWCF\bin\Debug\EntityFramework.xml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.exe.config
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.exe
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\DropBoxWCF.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignColors.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\WcfClassesLib.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.exe
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\EntityFramework.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\WcfService.exe.config
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\WcfClassesLib.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\bin\Debug\EntityFramework.xml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateAccount.g.cs
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateFolder.g.cs
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\ElementMove.g.cs
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\Lobby.g.cs
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\App.g.cs
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF_MarkupCompile.cache
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF_MarkupCompile.lref
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\App.baml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateAccount.baml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\CreateFolder.baml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\ElementMove.baml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\Lobby.baml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\Windows\MainWindow.baml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.g.resources
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.Properties.Resources.resources
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.csproj.GenerateResource.Cache
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.exe
+C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\DropBoxWCF.pdb

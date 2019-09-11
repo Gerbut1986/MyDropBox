@@ -1,0 +1,24 @@
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\WcfService.exe.config
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\WcfService.exe
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\WcfService.pdb
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\WcfClassesLib.dll
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\bin\Debug\WcfClassesLib.pdb
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\obj\Debug\WcfService.exe
+C:\Users\Алексей\documents\visual studio 2017\Projects\DropBoxWCF\WcfService\obj\Debug\WcfService.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\WcfService.exe.config
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\WcfService.exe
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\WcfService.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\EntityFramework.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\WcfClassesLib.dll
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\EntityFramework.xml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\bin\Debug\WcfClassesLib.pdb
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\obj\Debug\WcfService.exe
+C:\Users\Алексей\Desktop\2\DropBoxWCF\WcfService\obj\Debug\WcfService.pdb

@@ -1,0 +1,5 @@
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.csprojResolveAssemblyReference.cache
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\bin\Debug\WcfClassesLib.dll
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\bin\Debug\WcfClassesLib.pdb
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.dll
+C:\Users\Алексей\Documents\Visual Studio 2017\Projects\DropBoxWCF\WcfClassesLib\obj\Debug\WcfClassesLib.pdb

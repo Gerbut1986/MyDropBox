@@ -1,0 +1,63 @@
+﻿<Window x:Class="DropBoxWCF.Windows.Lobby"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DropBoxWCF.Windows"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        WindowStartupLocation="CenterScreen" Closing="Window_Closing"
+        mc:Ignorable="d" ResizeMode="CanResize" Background="#F2F2F2"
+        Title="Cloud" Height="500" Width="800" MinHeight="320" MinWidth="525">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.CheckBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ListBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.PopupBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.RadioButton.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBlock.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ToggleButton.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Column="0" VerticalAlignment="Top" Margin="5">
+            <StackPanel Grid.Column="0" Orientation="Vertical">
+                <TextBlock Text="[Имя пользователя]" HorizontalAlignment="Center" FontWeight="Bold" FontSize="13" Name="tblUserName"/>
+                <materialDesign:PopupBox Name="bControlPanelMenu" HorizontalAlignment="Center" Background="Transparent" Width="24" Height="24" BorderBrush="Transparent" Foreground="#53c8ff" materialDesign:ShadowAssist.ShadowDepth="Depth3" VerticalAlignment="Bottom" Style="{StaticResource MaterialDesignMultiFloatingActionPopupBox}"           
+                                 PlacementMode="BottomAndAlignCentres"
+                                     UnfurlOrientation="Vertical">
+                    <materialDesign:PopupBox.ToggleCheckedContent>
+                        <materialDesign:PackIcon Kind="Close" Foreground="Red" Width="24" Height="24"/>
+                    </materialDesign:PopupBox.ToggleCheckedContent>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Name="bAddDir" Click="bAddDir_Click" BorderBrush="LightYellow" Background="LightYellow" BorderThickness="2" ToolTip="Create new folder">
+                            <materialDesign:PackIcon Kind="Folder" Foreground="Orange"/>
+                        </Button>
+                        <Button Name="bAddFile" Click="bAddFile_Click" BorderBrush="LightBlue" Background="LightBlue" BorderThickness="2" ToolTip="Upload new file">
+                            <materialDesign:PackIcon Kind="File" Foreground="LightCoral"/>
+                        </Button>
+
+                    </StackPanel>
+                </materialDesign:PopupBox>
+            </StackPanel>
+        </Viewbox>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="59,0" RenderTransformOrigin="0.484,-0.225" Height="74">
+            <Button Style="{StaticResource MaterialDesignFlatButton}" VerticalAlignment="Bottom" Height="33" x:Name="bCloudNavigation" Click="bCloudNavigation_Click">
+                <materialDesign:PackIcon Kind="ArrowLeft" Height="30" Width="30" Foreground="#53c8ff"/>
+            </Button>
+        </StackPanel>
+        <WrapPanel Grid.Column="1" Background="#FFE6E6E6" Name="wpFileSystemExplorer" ScrollViewer.VerticalScrollBarVisibility="Visible">
+
+        </WrapPanel>
+        <materialDesign:Snackbar Name="sbMessage" IsActive="False" Grid.Column="1">
+            <materialDesign:SnackbarMessage Content="[СООБЩЕНИЕ ДЛЯ ПОЛЬЗОВАТЕЛЯ]" ActionClick="SnackbarMessage_ActionClick" ActionContent="OK"/>
+        </materialDesign:Snackbar>
+    </Grid>
+</Window>

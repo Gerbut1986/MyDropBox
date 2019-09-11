@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="87ad42a1-ab86-441b-b779-0b2e8eedba33" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost/DropBox/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="8adc379a-52de-48e3-b4ad-056ce4fb5beb" SourceId="1" SourceUrl="net.tcp://localhost/DropBox/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="4b04e3e4-cb97-4f0e-a7ce-41ca21cd73f6" SourceId="1" SourceUrl="net.tcp://localhost/DropBox/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="16ebdb1b-0aca-4c4f-af19-f7d62afb6c8b" SourceId="1" SourceUrl="net.tcp://localhost/DropBox/mex" />
+    <MetadataFile FileName="WcfClassesLib.xsd" MetadataType="Schema" ID="0791f88a-bbfe-4c3c-8e85-5cff85f76bed" SourceId="1" SourceUrl="net.tcp://localhost/DropBox/mex" />
+    <MetadataFile FileName="System.xsd" MetadataType="Schema" ID="f4f27ee5-c2e2-40ba-b2df-00ed109f2025" SourceId="1" SourceUrl="net.tcp://localhost/DropBox/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

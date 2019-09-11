@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DropBoxModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="FileSystemElements">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Owner" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Hash" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Parent" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ElementType" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="Binary" MaxLength="1" FixedLength="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__FileSyste__Id_Ow__1CF15040" FromRole="FileSystemElements" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="FileSystemElements" Relationship="Self.FK__FileSyste__Id_Ow__1CF15040" FromRole="Users" ToRole="FileSystemElements" />
+  </EntityType>
+  <Association Name="FK__FileSyste__Id_Ow__1CF15040">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="FileSystemElements" Type="Self.FileSystemElements" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="FileSystemElements">
+        <PropertyRef Name="Id_Owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DropBoxCloudEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="FileSystemElements" EntityType="Self.FileSystemElements" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK__FileSyste__Id_Ow__1CF15040" Association="Self.FK__FileSyste__Id_Ow__1CF15040">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="FileSystemElements" EntitySet="FileSystemElements" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

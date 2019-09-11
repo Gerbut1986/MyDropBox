@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/System" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/WcfClassesLib" />
+  <xs:complexType name="TupleOfArrayOfFolderArrayOfFileiQoA9dYs">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="TupleOf{0}{1}{#}" Namespace="http://schemas.datacontract.org/2004/07/System" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="ArrayOfFolder" Namespace="http://schemas.datacontract.org/2004/07/WcfClassesLib">
+          </GenericParameter>
+          <GenericParameter Name="ArrayOfFile" Namespace="http://schemas.datacontract.org/2004/07/WcfClassesLib">
+          </GenericParameter>
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfClassesLib" name="m_Item1" nillable="true" type="q1:ArrayOfFolder" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfClassesLib" name="m_Item2" nillable="true" type="q2:ArrayOfFile" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TupleOfArrayOfFolderArrayOfFileiQoA9dYs" nillable="true" type="tns:TupleOfArrayOfFolderArrayOfFileiQoA9dYs" />
+</xs:schema>
