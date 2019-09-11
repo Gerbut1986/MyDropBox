@@ -1,12 +1,7 @@
-﻿using MaterialDesignThemes.Wpf;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DropBoxWCF.Classes
+﻿namespace DropBoxWCF.Classes
 {
+    using MaterialDesignThemes.Wpf;
+
     public static class UIWorker
     {
         public static PackIcon GetPackIconByFileExtension(string fileName)

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\obj\Debug\
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\obj\Debug\
 DropBoxWCF
 none
 false
 DEBUG;TRACE
-C:\Users\Алексей\Desktop\2\DropBoxWCF\DropBoxWCF\Windows\App.xaml
+D:\EPAM Academy\GitHub_Gerbut1986\MyDropBox\DropBoxWCF\DropBoxWCF\Windows\App.xaml
 5-1102195486
 
-14-2123620941
-191419503597
+181749907605
+19141722484
 Windows\CreateAccount.xaml;Windows\CreateFolder.xaml;Windows\ElementMove.xaml;Windows\Lobby.xaml;Windows\MainWindow.xaml;
 
-False
+True
 

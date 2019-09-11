@@ -1,15 +1,13 @@
-﻿using WcfClassesLib;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel;
-using System.ServiceModel.Description;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity.Validation;
-
-namespace WcfService
+﻿namespace WcfService
 {
+    using WcfClassesLib;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.ServiceModel;
+    using System.ServiceModel.Description;
+    using System.Data.Entity.Validation;
+
     public interface IConnection
     {
         [OperationContract]

@@ -1,15 +1,13 @@
-﻿using DropBoxWCF.ServiceReference1;
-using DropBoxWCF.Windows;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
-using WcfClassesLib;
-
-namespace DropBoxWCF.Classes
+﻿namespace DropBoxWCF.Classes
 {
+    using DropBoxWCF.ServiceReference1;
+    using DropBoxWCF.Windows;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.ServiceModel;
+    using WcfClassesLib;
+
     public static class CloudWorker
     {
         public static Certificate Certificate { get; set; }

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WcfClassesLib
+﻿namespace WcfClassesLib
 {
+    using System.Security.Cryptography;
+    using System.Text;
+
     public static class MD5Worker
     {
         public static string CalculateMD5Hash(string input)

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WcfClassesLib
+﻿namespace WcfClassesLib
 {
+    using System;
+
     public class FileSystemElement
     {
         public string Name { get; set; }

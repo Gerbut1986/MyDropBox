@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DropBoxWCF.Classes
+﻿namespace DropBoxWCF.Classes
 {
+    using System.Security.Cryptography;
+    using System.Text;
+
     public static class MD5Worker
     {
         public static string CalculateMD5Hash(string input)
         {
-            // step 1, calculate MD5 hash from input
+            // Step 1, calculate MD5 hash from input:
 
             MD5 md5 = System.Security.Cryptography.MD5.Create();
 
@@ -19,7 +15,7 @@ namespace DropBoxWCF.Classes
 
             byte[] hash = md5.ComputeHash(inputBytes);
 
-            // step 2, convert byte array to hex string
+            // Step 2, convert byte array to hex string:
 
             StringBuilder sb = new StringBuilder();
 
